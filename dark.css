@@ -1,0 +1,207 @@
+/* BODY */
+body {
+  font-family: "Gilroy-Medium", sans-serif;
+}
+
+/* CONTAINER */
+.container {
+  margin-left: 192px;
+  margin-right: 192px;
+}
+
+/* HEADER */
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #828282;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.header-nav a:hover {
+  color: black;
+  font-weight: 700;
+}
+
+/* ABOUT */
+.person-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+h1 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 48px;
+}
+
+.my-info {
+  font-size: 18px;
+}
+
+.languare {
+  transform: rotate(90deg);
+  transform-origin: left;
+  white-space: nowrap;
+  display: inline-block;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 30px;
+  font-size: 18px;
+}
+
+.img-div {
+  margin-top: 30px;
+}
+
+/* ABOUT ME */
+
+.about-me {
+  background-color: #f6f6f6;
+  height: 506px;
+  margin-top: 104px;
+}
+
+h2 {
+  font-size: 34px;
+  font-family: "Gilroy-Bold", sans-serif;
+  margin-top: 120px;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-info p {
+  width: 408px;
+}
+
+/* SKILLS */
+
+.text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+.text p {
+  margin-top: 60px;
+  font-size: 24px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+.card-one {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+}
+
+.card-one p {
+  margin-top: 20px;
+}
+
+.stars {
+  margin-top: 20px;
+}
+
+.figma {
+  height: 156px;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+  background-color: #f6f6f6;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.porn-h3 {
+  padding-top: 112px;
+}
+
+.portfo-img {
+
+  margin-top: 110px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfo-img a {
+  margin-top: 44px;
+  color: black;
+  display: block;
+  width: 250px;
+}
+
+.portfo-img-tree {
+  margin-top: 110px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 96px;
+}
+
+
+.portfo-img-tree a{
+  color: black;
+  display: block;
+  width: 250px;
+  margin-top: 46px;
+}
+
+/* FOOTER */
+
+.footer-text {
+  text-align: center;
+  margin-top: 114px;
+}
+
+.footer-text p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-text button{
+  background-color: black;
+  color: white;
+  width: 180px;
+  height: 42px;
+  border-radius: 50px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 86px;
+}
+
+.social-icon img{
+  padding-left: 60px;
+  padding-right: 20px;
+} 
+
+.last-text {
+  text-align: center;
+  margin-top: 50px;
+  color: #828282;
+}
